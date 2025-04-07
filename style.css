@@ -1,0 +1,190 @@
+body
+{
+    margin: 0;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+#ontap table
+{
+    width: 90%;
+    margin: 0px auto;
+}
+#ontap td
+{
+    text-align: center;
+    overflow: hidden;
+    width: 25%;
+}
+hr
+{
+    text-align: center;
+    width: 80%;
+}
+#header h1
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+#header p
+{
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#ontap h2
+{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#ontap_title, #blog h1
+{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+#ontap tr
+{
+    margin: 0;
+}
+.cell_container
+{
+    height: 50vh;
+    position: relative;
+}
+.cell_img
+{
+    display: block;
+    height: 50vh;
+    position: absolute;
+    left: -50%;
+    transition: transform .2s;
+}
+.cell_img:hover {
+    transform: scale(1.1);
+}
+.blog_img
+{
+    width: 25vw !important;
+    overflow: hidden;
+}
+.cell_img2
+{
+    width: 100%;
+    height: 25vh;
+}
+.cell_text
+{
+    margin-left: 5%;
+}
+.cell_text h2
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0.5em;
+}
+.cell_text p, .cell_text h3
+{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#blog table
+{
+    margin: auto;
+    table-layout: auto;
+}
+.footer {
+    width: 100%;
+    background-color: #f0e7de;
+    color: #9c8765;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.5em;
+    font-style: normal;
+    height: 20vh;
+    position: relative;
+ }
+ .footer p
+ {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ #content img
+ {
+    width: 100%;
+    display: block;
+    filter: brightness(50%);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: -25%;
+    text-align: center;
+ }
+ .banner
+ {
+    overflow: hidden;
+    width: 80vw;
+    height: 50vh;
+    position: relative;
+    margin: auto;
+ }
+ .text-banner 
+ {
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    width: 80%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 25%;
+ }
+ .text-banner h2
+ {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+ }
+ .text-banner p
+ {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+ }
+ .text-content
+ {
+    width: 80vw;
+    margin: auto;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.25em;
+ }
